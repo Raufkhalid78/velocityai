@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="#09090b" stroke="url(#grad1)" stroke-width="12" />
+  
+  <!-- Speedometer Arc -->
+  <path d="M 120 380 A 180 180 0 1 1 392 380" fill="none" stroke="#3b82f6" stroke-width="24" stroke-linecap="round" opacity="0.3" />
+  <path d="M 120 380 A 180 180 0 0 1 256 76" fill="none" stroke="url(#grad1)" stroke-width="24" stroke-linecap="round" filter="url(#glow)" />
+  
+  <!-- Stylized V / Needle -->
+  <path d="M 256 180 L 180 340 L 256 310 L 332 340 Z" fill="url(#grad1)" />
+  
+  <!-- Center Point -->
+  <circle cx="256" cy="256" r="12" fill="#ffffff" />
+</svg>
