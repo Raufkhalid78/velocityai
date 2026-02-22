@@ -1,0 +1,21 @@
+{
+  "name": "Velocity AI - Speed Tracker & Alarm",
+  "short_name": "Velocity AI",
+  "description": "Advanced GPS speed tracker with HUD mode and AI voice alerts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "https://picsum.photos/id/1/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/id/1/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Velocity AI - Speed Tracker & Alarm App",
+  "description": "An advanced GPS speed tracker with Head-Up Display (HUD) mode, custom speed limits, and AI-generated voice alerts using Gemini.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
